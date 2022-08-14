@@ -14,3 +14,11 @@
     min-height: 100vh;
     background-color: rgb(218, 217, 217);
 }
+
+.cajita{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    /*margin-bottom: 10px;*/
+    margin: 10px;
+}
