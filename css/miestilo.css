@@ -1,0 +1,81 @@
+/*
+Indice
+0. General o universal
+1. Definición de estilo de Tags.
+2. Definición de Clases
+3. Definición de ID's
+*/
+
+
+/* General o universal */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+}
+
+/* Definición de estilo de Tags*/
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: brown;
+}
+
+p   {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: 400;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    /*text-decoration: underline;*/
+    font-style: italic;
+}
+
+/*Definición de estilo de Clases*/
+.miTitulo2 {
+    border-width: 2px;
+    border-style: double;
+    color: green;
+    text-align: center;
+}
+
+
+/*Definición de estilo de ID's*/
+#destacado {
+    font-size: xx-large;
+}
+
+
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: white;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.caja:focus{
+    font-size: xx-large;
+}
+
+/*Responsividad*/
+
+@media screen and (min-width: 700px)
+{
+    .miTitulo2{color: red;}
+}
+
+/* M1S1_Clase 2 CSS y Responsive Desing P3.mp4 'Minuto 40:00' */
