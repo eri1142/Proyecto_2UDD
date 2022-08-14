@@ -3,5 +3,14 @@
     display: block;
     padding-left: 0%;
     padding-right: 0%;
+    margin-bottom: 0vh;
+    margin-top: 0vh;
     background-color: #ffd4db;
+}
+
+.planespremiun{
+    /*width: 100%;*/
+    /*display: block;*/
+    min-height: 100vh;
+    background-color: rgb(218, 217, 217);
 }
