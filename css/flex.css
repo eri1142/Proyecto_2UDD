@@ -1,0 +1,55 @@
+.contenedor{
+    display: flex; /*inline hace que se ordenen en linea e inline-block */
+    flex-direction: row;
+    /*flex-flow: row-reverse wrap-reverse; ahorra una linea de codigo contine direction y wrap */
+    flex-wrap: wrap; /*cuando achicamos se ordenan en columna.... siempre que este display-flex*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item1{
+    width: 100px;
+    /* height: 40px; */
+    background-color: aquamarine;
+    align-self: stretch;
+}
+
+.item2{
+    width: 100px;
+    height: 60px;
+    background-color: bisque;
+}
+
+.item3{
+    width: 100px;
+    height: 30px;
+    background-color: cadetblue;
+}
+
+.item4{
+    width: 100px;
+    height: 80px;
+    background-color: coral;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .contenedor{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .item1{
+        width: 50px;
+        /* height: 40px; */
+        background-color: #b6ff7f;
+        align-self: flex;
+    }
+
+    .item2{
+        width: 30px;
+        height: 20px;
+        background-color: bisque;
+    }
+}

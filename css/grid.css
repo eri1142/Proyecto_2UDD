@@ -1,0 +1,85 @@
+
+.contenedor{
+    display: grid;
+    gap: 5px;
+    /* grid-template-columns: 2fr repeat(2,1fr); */
+    /* grid-template-rows: 2fr 1fr; */
+    
+    grid-template-areas: 
+    'a a'
+    'a a'
+    'b c'
+    'd e'
+    'f f';
+
+    background-color: blue;
+}
+
+.item1{
+    /* grid-column: 1 / 3; */
+    /* grid-row: 1 / 3; */
+    /* width: 100px; */
+    /* height: 40px; */
+    grid-area: a;
+    background-color: aquamarine;
+}
+
+.item2{
+    /* width: 100px; */
+    /* height: 60px; */
+    grid-area: b;
+    background-color: bisque;
+}
+
+.item3{
+    /* width: 100px; */
+    /* height: 30px; */
+    grid-area: c;
+    background-color: cadetblue;
+}
+
+.item4{
+    /* width: 100px; */
+    /* height: 80px; */
+    grid-area: d;
+    background-color: coral;
+}
+
+.item5{
+    /* width: 100px; */
+    /* height: 80px; */
+    grid-area: e;
+    background-color: #7cff50;
+}
+
+.item6{
+    /* width: 100px; */
+    /* height: 80px; */
+    grid-area: f;
+    background-color: #93cdec;
+}
+
+@media screen and (min-width: 600px) {
+    .contenedor{
+        grid-template-areas:
+        'a a c'
+        'a a c'
+        'b b c'
+        'd f f'
+        'e e e';
+
+    }
+}
+
+@media screen and (mind-width: 800px) {
+    .contenedor{
+        grid-template-areas:
+        'f f f b'
+        'f f f c'
+        'f f f d'
+        'e a a a';
+    }
+    
+}
+
+/* Clase 2 CSS GRID 0:35:54 */
